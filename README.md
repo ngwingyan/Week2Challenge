@@ -6,7 +6,7 @@ To create a portfolio page with the html and CSS skills learnt as the bootcamp g
 
 # Screenshot
 
-![screenshot](images/screenshot.png)
+![screenshot](images/pagescreenshot.png)
 
 # Link
 
