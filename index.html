@@ -5,55 +5,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Winnie || Web Developer</title>
-  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <title>Winnie // Web Developer</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <!-- main logo / nav -->
-  <header>
-    <nav id="navBar">
-      <h1>Winnie NG</h1>
-      <div id="navigation">
-        <a href=#about>About Me</a>
-        <a href=#work>Work</a>
-        <a href=#contact>Contact Me</a>
-      </div>
-    </nav>
-  </header>
+  <nav class="navBar" id="mainNav">
+    <h1>Winnie</h1>
+    <img src="images/avatar.jpg" alt="Winnie"> 
+    <div class="link" id="navigation" >
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+    </div>
+  </nav>
 
   <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Existence precedes Essence</h2>
+  <section class="hero-banner" id="banner">
+    <div id="herobanner">
+      <h2>Existence precedes essence</h2>
     </div>
   </section>
 
-  <main class="page-wrapper">
+  <main class="portfoliopage">
+
     <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+    <section class="aboutme" id="about">
+      <div class="title">
+        <h2>About Me</h2>
+      </div>
+      <div>
+        <p>
+          Recently relocated from Hong Kong, hoping to explore the vibrant London city, historical United Kingdom and
+          getting to know myself better!
+          <br>
+          Experienced in secondary business research particularly in the Asian market, together with recently acquired
+          technical skills and international experiences makes your perfect candidate.
+        </p>
+      </div>
     </section>
 
     <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <div id="mywork"><h2>Work</h2></div>
-      <div id="research" class="categoryGridArea">
-        <div class="heading">Research</div>
+    <section class="portfolio" id="work">
+      <div class="title">
+        <h2>Work</h2>
       </div>
-      <div id="teamwork" class="categoryGridArea">
-        <div class="heading">Collaboration</div>
-      </div>
-      <div id="analysis" class="categoryGridArea">
-        <div class="heading">Analysis</div>
+      <div class="categoryGrid" id="Grid">
+        <div class="categoryGridArea" id="research" >
+          <div class="heading"><a href="#">Research</a></div>
+        </div>
+        <div class="categoryGridArea" id="teamwork" >
+          <div class="heading"><a href="#">Collaboration</a></div>
+        </div>
+        <div class="categoryGridArea" id="analysis" >
+          <div class="heading"><a href="#">Analysis</a></div>
+        </div>
       </div>
     </section>
 
     <!-- contact -->
     <section class="page-section contact" id="contact">
-      <div id="mycontact"><h2>Contact Me</h2></div>
-      <div id="email">
-        <a href = "mailto: ngwingyan@gmail.com">Send Email</a>
+      <div class="title">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="email">
+        <a href="mailto: ngwingyan@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/winnie-ng-uk/">Linkedin</a>
+    </div>
       </div>
     </section>
   </main>
